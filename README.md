@@ -117,3 +117,9 @@ Executive Reporting: Delivers a centralized view of enterprise performance, allo
 
 5. Screenshots / Demos
 Show what the dashboard looks like. Example:
+Finance Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Executive%20Dashboard.png
+sales Dashboard:
+Marketing Dashboard:
+Supply chain Dashboard:
+Executive Dashboard:
+
