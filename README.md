@@ -121,5 +121,5 @@ Finance Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power
 sales Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Sales%20Dashboard.png
 Marketing Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Marketing%20Dashboard.png
 Supply chain Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Supply%20chain%20Dashboard.png
-Executive Dashboard:
+Executive Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Executive%20Dashboard.png
 
