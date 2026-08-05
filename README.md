@@ -1,129 +1,258 @@
-# Business 360 Insights: Enterprise Performance Analytics Dashboard
+📊 Business Insights 360 – Power BI Dashboard
 
-1. Project Headline
+🔗 Live Dashboard: https://app.powerbi.com/view?r=eyJrIjoiZTcwNjcyYzctZWZkNy00MmEyLWI2MTItZTgyMGJlOTczZjI5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
 
-An end-to-end interactive Power BI Business Intelligence solution designed to monitor enterprise performance across Executive, Finance, Sales, Marketing, and Supply Chain functions. This dashboard delivers actionable insights into financial performance, sales growth, profitability, customer behavior, market trends, forecasting accuracy, and operational efficiency through interactive visualizations, KPI monitoring, drill-down analysis, and dynamic filtering for data-driven decision-making.
+📂 Dataset: Codebasics Business Insights 360 Case Study
+📌 Domain: Finance | Sales | Marketing | Supply Chain | Executive | Product
 
-2. Short Description / Purpose
+🌟 Project Overview
 
-The Business 360 Insights Dashboard is a comprehensive and interactive Power BI Business Intelligence solution designed to provide a unified view of enterprise performance across Executive, Finance, Sales, Marketing, and Supply Chain functions. The dashboard enables users to monitor key business KPIs, analyze profitability, sales performance, customer and product trends, market share, and forecasting accuracy through dynamic visualizations and interactive reports. It is intended for business executives, finance professionals, sales managers, marketing teams, supply chain analysts, and decision-makers who require actionable insights to drive strategic, data-driven business decisions.
+Business Insights 360 is an end-to-end Power BI analytics solution developed for AtliQ Hardware, a global computer hardware company.
 
-3. The dashboard was built using the following tools and technologies:
+The objective of this project is to transform raw business data into interactive dashboards that enable stakeholders to make faster, data-driven decisions across multiple business functions.
 
-📊 Power BI Desktop – Primary business intelligence platform used to design and develop interactive dashboards and reports.
-📂 Power Query (M Language) – Used for data extraction, cleaning, transformation, and preparation before loading the data into the Power BI data model.
-🧠 DAX (Data Analysis Expressions) – Implemented to create calculated measures, KPIs, dynamic calculations, time intelligence, and conditional logic for advanced business analysis.
-🗄️ Data Modeling – Built using a Star Schema with fact and dimension tables to establish relationships, optimize performance, and enable efficient cross-filtering.
-📈 Data Visualization – Utilized a wide range of Power BI visuals, including KPI Cards, Line Charts, Bar Charts, Matrix Tables, Scatter Charts, Donut Charts, Treemaps, Tooltips, and Slicers to present insights effectively.
-🎯 Business Intelligence Features – Implemented Bookmarks, Drill-through, Dynamic Titles, Conditional Formatting, Navigation Buttons, Report Tooltips, and Interactive Filters to enhance the user experience.
-📁 Data Source – Business 360 sample dataset containing Finance, Sales, Marketing, Customer, Product, and Supply Chain data.
-📄 File Formats – .pbix for Power BI development, .png for dashboard previews, and .md for project documentation.
+This project was completed as part of the Codebasics Power BI Bootcamp, covering the complete analytics workflow—from data modeling and transformation to dashboard design and DAX calculations.
 
-4.Features / Highlights
-4.1.  Business Problem
+🚀 Business Problem
 
-Organizations generate massive volumes of data across Finance, Sales, Marketing, and Supply Chain operations. However, this data often exists in isolated systems, making it difficult for stakeholders to obtain a unified view of business performance. As a result, answering critical business questions becomes time-consuming and challenging, such as:
+AtliQ Hardware has experienced rapid business growth across multiple countries and sales channels.
 
-How is the company performing financially across different markets and customer segments?
-Which customers and products contribute the most to revenue and profitability?
-Are sales targets and gross margin goals being achieved?
-How effective are marketing efforts across regions and product categories?
-How accurate are demand forecasts, and where do forecasting errors occur?
-Which business units require immediate attention to improve operational performance?
+The company relied heavily on Excel reports and manual analysis, making it difficult to:
 
-Without an integrated analytics solution, decision-makers struggle to identify trends, monitor KPIs, and respond quickly to changing business conditions.
+Monitor business performance in real time
+Identify profitable customers and products
+Improve forecasting accuracy
+Track profitability across markets
+Make data-driven strategic decisions
 
-4.2. Goal of the Dashboard
+To overcome these challenges, an interactive Power BI dashboard was developed to provide a comprehensive 360° view of business performance.
 
-The primary goal of the Business 360 Insights Dashboard is to provide a centralized, interactive Business Intelligence solution that enables stakeholders to monitor enterprise performance from multiple business perspectives.
+💻 Tech Stack
+📊 Power BI Desktop
+🗄 SQL
+📈 DAX
+🔄 Power Query
+📑 Excel
+⚡ DAX Studio
 
-4.3. The dashboard helps users to:
+🛠 Power BI Features
+Data cleaning and transformation using Power Query
+Snowflake Schema Data Modeling
+Dynamic DAX Measures & KPIs
+Dynamic Titles based on slicer selections
+Conditional Formatting using DAX
+Bookmarks & Navigation Buttons
+Drill-through Pages
+Custom Report Tooltips
+Sparklines inside Matrix Visuals
+Dynamic Top & Bottom N Analysis
+Date Table created using M Language
+Performance Optimization using DAX Studio
+Data Validation & Quality Checks
 
-Monitor key business KPIs in real time.
-Analyze financial performance and profitability.
-Evaluate sales performance across customers, products, and regions.
-Measure marketing effectiveness and market performance.
-Track supply chain forecasting accuracy and operational efficiency.
-Enable faster, data-driven strategic decision-making through interactive reports and drill-down analysis.
-📊 Walkthrough of Key Visuals
-🏢 Executive Dashboard
+🏢 Company Background
 
-Provides a high-level overview of overall business performance.
+AtliQ Hardware manufactures and sells computers and accessories through three major sales channels:
 
-Key Visuals
+🏬 Retailers
+🛒 Direct Sales
+📦 Distributors
 
-KPI Cards showing Net Sales, Gross Margin %, Net Profit %, and Forecast Accuracy.
-Revenue trends across multiple years.
-Revenue breakdown by Division and Sales Channel.
-Market Share Analysis.
-Top Customers and Top Products.
-Interactive filters for Region, Market, and Time Period.
-💰 Finance Dashboard
+The company operates across multiple regions including:
 
-Focuses on financial reporting and profitability analysis.
+APAC
+Europe
+North America
+LATAM
 
-4.4. Key Visuals
+📂 Dataset Information
 
-Profit & Loss Statement.
-Net Sales, Gross Margin, and Net Profit KPIs.
-Benchmark comparison against targets.
-Monthly financial trend analysis.
-Product and regional profitability comparison.
-Gross Margin % by customer and product.
-📈 Sales Dashboard
+The project uses two databases:
 
-Analyzes sales performance across customers and products.
+🗄 gdb041
+Dimension Tables
+dim_customer
+dim_product
+dim_market
+Fact Tables
+fact_sales_monthly
+fact_forecast_monthly
+🗄 gdb056
 
-Key Visuals
+Contains supporting business data:
 
-Customer Performance Matrix.
-Product Performance Matrix.
-Net Sales and Gross Margin comparison.
-Scatter plot for Unit Economics.
-Regional sales performance.
-Top-performing customers and products.
-📢 Marketing Dashboard
+Gross Price
+Manufacturing Cost
+Freight Cost
+Pre Invoice Deductions
+Post Invoice Deductions
 
-Measures market performance and customer contribution.
+Dashboard Views
+🏠 Home View
 
-Key Visuals
+Central navigation page to access all dashboards.
 
-Product-wise revenue analysis.
-Market and region performance.
-Customer profitability matrix.
-Gross Margin % by product.
-Net Sales contribution across divisions.
-Performance comparison against benchmarks.
-🚚 Supply Chain Dashboard
+💰 Finance View
 
-Evaluates operational efficiency and forecasting performance.
+Key Insights:
 
-Key Visuals
+Profit & Loss Statement
+Net Sales Analysis
+Gross Margin %
+Net Profit %
+Top & Bottom Customers
+Top & Bottom Products
 
-Forecast Accuracy KPI.
-Net Error and Absolute Error analysis.
-Customer forecasting performance.
-Product forecasting performance.
-Monthly forecasting trends.
-Risk indicators for supply chain planning.
-4.5. Business Impact & Insights
-360° Business Visibility: Combines Executive, Finance, Sales, Marketing, and Supply Chain analytics into a single interactive reporting solution.
-Financial Performance Monitoring: Enables finance teams to track profitability, compare actual performance against targets, and identify areas for cost optimization.
-Sales Optimization: Helps identify top-performing customers, products, and markets while highlighting underperforming segments that require strategic action.
-Marketing Effectiveness: Provides insights into customer behavior, market performance, and product contribution, supporting more effective marketing strategies.
-Supply Chain Improvement: Tracks forecasting accuracy and operational KPIs, helping reduce demand planning errors and improve inventory management.
-Data-Driven Decision Making: Interactive filters, drill-through functionality, KPI monitoring, and dynamic visualizations empower stakeholders to make faster, evidence-based business decisions.
-Executive Reporting: Delivers a centralized view of enterprise performance, allowing leadership teams to monitor business health, identify trends, and prioritize strategic initiatives efficiently.
+📈 Sales View
 
-5. Screenshots / Demos
-Show what the dashboard looks like. Example:
-Finance Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Executive%20Dashboard.png
+Key Insights:
 
-sales Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Sales%20Dashboard.png
+Customer Performance
+Product Performance
+Net Sales
+Gross Margin
+Gross Margin %
+Pre & Post Invoice Discounts
+Unit Economics
 
-Marketing Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Marketing%20Dashboard.png
+📢 Marketing View
 
-Supply chain Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Supply%20chain%20Dashboard.png
+Key Insights:
 
-Executive Dashboard:https://github.com/hbiswal199-lang/Business-360-Insights-Power-BI-Dashboard/blob/main/Executive%20Dashboard.png
+Market Performance
+Regional Analysis
+Customer Analysis
+Product Analysis
+GM%
+NP%
+
+🚚 Supply Chain View
+
+Key Insights:
+
+Forecast Accuracy
+Net Error
+Absolute Error
+Forecast Trend
+Customer Forecast Performance
+
+👔 Executive View
+
+Executive Dashboard containing:
+
+Revenue by Division
+Revenue by Customer
+Revenue by Product
+Revenue by Channel
+Revenue by Market
+KPI Overview
+
+📦 Product View
+
+Key Insights:
+
+Top 5 Countries by Net Sales
+Top & Bottom 5 Products by GM% YoY Growth
+GM% Growth Analysis
+Post Discount % Trend by Customer
+Product Performance Analysis
+
+📈 KPIs Created
+Gross Sales
+Net Sales
+Gross Margin
+Gross Margin %
+Net Profit %
+Gross Margin YoY Growth
+Gross Margin % Growth
+Gross Margin % YoY Growth
+Forecast Accuracy
+Net Error
+Absolute Error
+Total Pre Invoice Deduction
+Total Post Invoice Deduction
+Post Discount %
+Net Sales Trend
+Dynamic Top & Bottom Ranking
+
+Data Model
+
+A Snowflake Schema was implemented to improve query performance and maintain scalable relationships between fact and dimension tables.
+
+<img width="650" height="800" alt="Screenshot 2026-08-05 134704" src="https://github.com/user-attachments/assets/6bb0af35-2338-4e0b-a1d8-be954ca13319" />
+
+📸 Dashboard Preview
+
+🏠 Home
+<img width="1504" height="840" alt="Screenshot 2026-08-05 135236" src="https://github.com/user-attachments/assets/0ccabe7d-c7bd-4985-b0f9-499792a1a1d3" />
+
+💰 Finance
+
+<img width="1632" height="917" alt="Finance Dashboard" src="https://github.com/user-attachments/assets/6926a1d2-befe-4252-9a2c-fe151c0f7f14" />
+
+📈 Sales
+<img width="1627" height="916" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/0cf7853a-ad13-4647-90cb-1990b0abd94f" />
+
+📢 Marketing
+<img width="1630" height="916" alt="Marketing Dashboard" src="https://github.com/user-attachments/assets/fa41ac42-4121-4bd8-93ca-e017e85ee812" />
+
+🚚 Supply Chain
+<img width="1632" height="916" alt="Supply chain Dashboard" src="https://github.com/user-attachments/assets/f56d5c3e-cd61-4200-915b-a049302d1dec" />
+
+👔 Executive
+<img width="1637" height="915" alt="Executive Dashboard" src="https://github.com/user-attachments/assets/9c2bfc5a-a7da-4fd5-a919-694c4f5a8fef" />
+
+📦 Product
+<img width="1496" height="839" alt="image" src="https://github.com/user-attachments/assets/ffeab25b-3e99-4243-a454-b5cf540fd390" />
+
+🎯 Business Impact
+
+This dashboard transforms 1.5M+ rows of raw business data into meaningful business insights that support strategic decision-making.
+
+It helps stakeholders to:
+
+💰 Finance
+Monitor profitability
+Analyze revenue trends
+Evaluate margin performance
+📈 Sales
+Identify high-value customers
+Track product performance
+Improve sales strategy
+📢 Marketing
+Measure regional performance
+Optimize customer segmentation
+Improve market penetration
+🚚 Supply Chain
+Improve forecast accuracy
+Reduce inventory risks
+Optimize demand planning
+👔 Executive
+Monitor business performance
+Track key KPIs
+Enable faster data-driven decisions
+🎓 Key Learnings
+
+Through this project, I strengthened my skills in:
+
+Advanced DAX
+Data Modeling
+Business Analytics
+KPI Development
+Interactive Dashboard Design
+Performance Optimization
+Data Storytelling
+Power Query
+Business Intelligence Best Practices
+
+🔗 Connect With Me
+💼 LinkedIn: https://www.linkedin.com/in/hemanta-biswal-7743a8364/
+📂 GitHub: Add your GitHub profile
+📧 Email: hbiswal199@gmail.com
+
+
+
+
+
+
 
