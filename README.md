@@ -248,7 +248,7 @@ Business Intelligence Best Practices
 🔗 Connect With Me
 💼 LinkedIn: https://www.linkedin.com/in/hemanta-biswal-7743a8364/
 
-📂 GitHub: Add your GitHub profile
+📂 GitHub: https://github.com/hbiswal199-lang
 
 📧 Email: hbiswal199@gmail.com
 
